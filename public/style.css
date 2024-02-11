@@ -1,0 +1,112 @@
+body{
+    padding: 10px 10px;
+    max-width: 490px;
+    min-width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#gtnbtn{
+
+    background-color: rgb(32, 100, 69);
+    color: aliceblue;
+    border: none;
+    width: 140px;
+    border: 2px solid rgb(14, 15, 14);
+    height: 45px;
+    padding: 8px 1px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 0px 0px rgb(164, 160, 159);
+    transition: all 0.4s ease;
+    
+}
+#gtnbtn:active{
+    
+    box-shadow: 0px 2px 0px 0px rgb(164, 160, 159);
+    
+ 
+}
+#gtnbtn:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+   background-color:  rgb(32, 100, 69);
+
+
+}
+#sbmbtn{
+
+    margin-top: 21px;
+    margin-left: 9px;
+    background-color: rgb(32, 100, 69);
+    color: aliceblue;
+    border: 2px solid rgb(14, 15, 14);
+    width: 140px;
+    height: 45px;
+    padding: 8px 1px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 0px 0px rgb(164, 160, 159);
+    transition: all 0.4s ease
+}
+
+#delete {
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: rgb(13, 13, 14);
+    border: 2px solid rgb(14, 15, 14); 
+    width: 140px;
+    height: 45px;
+    padding: 8px 1px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 0px 0px rgba(164, 160, 159, 0.8); 
+    transition: all 0.4s ease
+}
+
+#delete:active {
+    transform: translateY(9px);
+    box-shadow: 0px 2px 0px 0px rgba(164, 160, 159, 0.8); 
+}
+
+#delete:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(252, 252, 252);
+    color: rgb(6, 6, 6); 
+}
+
+#txtbox{
+   margin-bottom: -10px;
+   width: 100%;
+   height: 50px;
+   box-sizing: border-box;
+   padding: 8px;
+   border-radius: 3px;
+   border-color: rgb(32, 100, 69); ;
+
+}
+#sbmbtn:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+   background-color:  rgb(32, 100, 69);
+}
+#sbmbtn:active{
+
+    
+    box-shadow: 0px 2px 0px 0px rgb(164, 160, 159);
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 7px;
+}
+a{
+
+ color:  rgb(116, 21, 21);
+}
+li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+
+}     

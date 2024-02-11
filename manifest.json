@@ -1,0 +1,21 @@
+{
+
+
+    "manifest_version": 3,
+    "version": "1.1",
+    "description": "Easily save any link from any site for later use made by Caleb :)",
+    "name": "Link Grabber",
+
+"action":{
+
+    "default_popup": "./public/index.html",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png" },
+    
+    "permissions":[
+
+        "tabs"
+    ]
+
+
+}
